@@ -1,0 +1,15 @@
+<div class="mt-4">
+    {{!-- Hành vi mặc định của form
+        - method: default => Get
+        - method: post, get, put, patch,...
+        - action="/new" => method sẽ thực hiện tại path "/new"
+     --}}
+    <form method="POST">
+        <div class="form-group">
+            <label for="search-input">Từ khoá</label>
+            <input type="text" name="q" class="form-control" id="exampleInputEmail1"  placeholder="Nhập từ khoá">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
